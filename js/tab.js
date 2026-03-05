@@ -8,15 +8,15 @@ tabs.forEach((tab) => {
     // reset tabs
     tabs.forEach((t) => {
       t.classList.remove("is-active");
-      t.classList.remove("ring-4", "ring-yellow-400");
-      t.classList.add("ring-2", "ring-transparent");
+      t.classList.remove("text-primary");
+      t.classList.add("text-tertiary");
       t.setAttribute("aria-pressed", "false");
     });
 
     // activate clicked tab
     tab.classList.add("is-active");
-    tab.classList.remove("ring-2", "ring-transparent");
-    tab.classList.add("ring-4", "ring-yellow-400");
+    tab.classList.remove("text-tertiary");
+    tab.classList.add("text-primary");
     tab.setAttribute("aria-pressed", "true");
 
     // show matching cards

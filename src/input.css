@@ -41,7 +41,7 @@
     @apply overflow-x-hidden font-poppins text-black/80 text-base bg-white dark:bg-gray-900 dark:text-white/80;
   }
   .container {
-    @apply max-w-7xl w-full mx-auto px-4;
+    @apply max-w-700 w-full mx-auto px-4;
   }
   h1 {
     @apply text-[clamp(2rem,6vw,3rem)] font-extrabold;
@@ -74,7 +74,7 @@
     md:h-auto md:static md:shadow-none;
   }
   .headerNav ul.open {
-    @apply h-fit opacity-100 bg-white dark:bg-gray-900 shadow-md w-full top-38 px-4 pb-3 duration-300 
+    @apply h-fit opacity-100 bg-white dark:bg-gray-900 shadow-md w-full top-29 px-4 pb-3 duration-300 
     /* tablet - desktop */
     md:shadow-none md:px-0 md:pb-0;
   }
@@ -103,7 +103,7 @@
     @apply hidden;
   }
   .transparent.open {
-    @apply block fixed h-screen w-full backdrop-blur-sm left-0 top-78 duration-300 overflow-y-hidden;
+    @apply block fixed h-screen w-full backdrop-blur-sm left-0 top-70 duration-300 overflow-y-hidden;
   }
   .title {
     @apply mt-2 mb-4 leading-10;
