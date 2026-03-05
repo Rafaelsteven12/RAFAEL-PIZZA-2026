@@ -4,25 +4,25 @@
 @font-face {
   font-family: "Poppins";
   src: url(/fonts/Poppins-Regular.woff2) format("woff2");
-  font-weight: 400;
+  font-weight: 800;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
   src: url(/fonts/Poppins-Medium.woff2) format("woff2");
-  font-weight: 500;
+  font-weight: 800;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
   src: url(/fonts/Poppins-SemiBold.woff2) format("woff2");
-  font-weight: 600;
+  font-weight: 800;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
   src: url(/fonts/Poppins-Bold.woff2) format("woff2");
-  font-weight: 700;
+  font-weight: 800;
   font-display: swap;
 }
 
@@ -44,13 +44,13 @@
     @apply max-w-7xl w-full mx-auto px-4;
   }
   h1 {
-    @apply text-[clamp(2rem,6vw,3rem)] font-bold;
+    @apply text-[clamp(2rem,6vw,3rem)] font-extrabold;
   }
   h2 {
-    @apply text-[clamp(1.5rem,5vw,2.5rem)] font-bold;
+    @apply text-[clamp(1.5rem,5vw,2.5rem)] font-extrabold;
   }
   h3 {
-    @apply text-[clamp(1.25rem,4vw,2rem)] font-bold;
+    @apply text-[clamp(1.25rem,4vw,2rem)] font-extrabold;
   }
   h4 {
     @apply text-[clamp(1rem,3vw,1.75rem)] font-bold;
@@ -65,7 +65,7 @@
 
 @layer components {
   header {
-    @apply bg-white dark:bg-gray-900 px-10 md:px-110;
+    @apply bg-white dark:bg-gray-900 px-10 md:px-20;
   }
   .headerNav ul {
     @apply flex flex-col gap-5 fixed w-full top-26 text-left items-start overflow-hidden right-0 h-0 opacity-0 duration-300 
