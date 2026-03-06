@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAFAEL - PIZZA</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../favicon.ico" />
+    <script src="../js/theme-init.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="py-8 fixed shadow-md w-full z-50">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-2">
+            <img class="w-fit h-13" src="../IMG/LOGO.png" alt="logo" />
+          </div>
+          <!-- nav -->
+          <nav class="headerNav">
+            <ul class="uppercase">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./menu.html">MENU</a></li>
+              <li><a href="./contacts.html">Contacts</a></li>
+            </ul>
+          </nav>
+          <!-- toggle menu -->
+          <div class="toggleMenu">
+            <span></span>
+
+            <span></span>
+          </div>
+          <!-- transparent -->
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner Note -->
+    <section class="bg-tertiary/10 pt-28">
+      <div class="container">
+        <div>
+          <h6
+            class="flex text-center py-2.5 text-primary md:items-center justify-center"
+          >
+            <i class="fa-solid fa-bullhorn"></i> This Website provides
+            information about our store. Online transactions are comming soon.
+          </h6>
+        </div>
+      </div>
+    </section>
+    <!-- maps -->
+    <section>
+        <div class="container">
+            <div>
+                <iframe class="w-115 h-165 mb-10 md:w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d967.5914337678938!2d121.3475294828759!3d14.055567503760978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5cd2d6006569%3A0x9075b8a72b9d5fb0!2sFrontline%20Business%20Solutions%2C%20Inc.!5e0!3m2!1sen!2sph!4v1772755516451!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- contact form section (mobile & desktop) -->
+    <section class="bg-secondary py-12">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-8 text-black">GET IN TOUCH</h2>
+        <form class="max-w-lg mx-auto space-y-4 md:w-1/2 md:mx-auto">
+          <div class="flex flex-row gap-4 -mb-2">
+            <input type="text" placeholder="First Name" class="flex-1 px-4 py-2 rounded-lg" />
+            <input type="text" placeholder="Last Name" class="flex-1 px-4 py-2 rounded-lg" />
+          </div>
+          <input type="email" placeholder="Email Address" class="w-full px-4 py-2 rounded-lg" />
+          <input type="text" placeholder="Subject" class="w-full px-4 py-2 rounded-lg" />
+          <textarea placeholder="Your Message" class="w-full px-4 py-2 rounded-lg h-32"></textarea>
+          <button type="submit" class="btn btn--primary px-6 py-2 rounded-lg block mx-auto">SUBMIT FORM</button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="p-10 flex flex-col text-center justify-center items-center">
+      <div class="container">
+        <div class="grid place-content-center">
+          <img src="../IMG/logo.png" alt="" />
+        </div>
+
+        <div
+          class="md:flex flex-row justify-center items-center text-center py-5"
+        >
+          <div class="m-5">
+            <h4>ADDRESS</h4>
+            <p>570 8th Ave, New York, NY</p>
+            <p>10018 United States</p>
+          </div>
+          <div class="m-5">
+            <h4>BOOK A TABLE</h4>
+            <p>Dogfood Och Sliders Foodtruck.</p>
+            <p>Under Om Oss Kan Ni Lasa</p>
+          </div>
+          <div class="m-5">
+            <h4>OPENING HOURS</h4>
+            <p>Monday - Friday</p>
+            <p>10:00 AM - 11:00 PM</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-primary">0123456987</p>
+        </div>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="../js/toggle-menu.js"></script>
+    <script src="../js/accordion.js"></script>
+    <script src="../js/mode.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/tab.js"></script>
+  </body>
+</html>
