@@ -1,7 +1,17 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.27",
-    "postcss": "^8.5.8",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
     "tailwindcss": "^4.2.1"
-  }
+  },
+  "name": "get-pizza-20260303t071930z-3-001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": " npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
